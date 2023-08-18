@@ -8,8 +8,8 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/simonpasquier/klog-gokit/v3"
 	"github.com/xo/dburl"
-	"k8s.io/klog/v2"
 )
 
 // OpenConnection parses a provided DSN, and opens a DB handle ensuring early termination if the context is closed

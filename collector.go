@@ -11,7 +11,7 @@ import (
 	"github.com/burningalchemist/sql_exporter/config"
 	"github.com/burningalchemist/sql_exporter/errors"
 	dto "github.com/prometheus/client_model/go"
-	"k8s.io/klog/v2"
+	"github.com/simonpasquier/klog-gokit/v3"
 )
 
 // Collector is a self-contained group of SQL queries and metric families to collect from a specific database. It is

@@ -15,7 +15,7 @@ import (
 	"github.com/prometheus/common/promlog"
 	"github.com/prometheus/common/version"
 	"github.com/prometheus/exporter-toolkit/web"
-	"k8s.io/klog/v2"
+	"github.com/simonpasquier/klog-gokit/v3"
 )
 
 const (

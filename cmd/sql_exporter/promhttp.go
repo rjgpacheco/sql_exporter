@@ -16,7 +16,7 @@ import (
 	"github.com/burningalchemist/sql_exporter"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/expfmt"
-	"k8s.io/klog/v2"
+	"github.com/simonpasquier/klog-gokit/v3"
 )
 
 const (
