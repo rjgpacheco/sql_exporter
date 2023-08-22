@@ -16,12 +16,12 @@ require (
 	github.com/prometheus/client_model v0.4.0
 	github.com/prometheus/common v0.44.0
 	github.com/prometheus/exporter-toolkit v0.10.0
+	github.com/simonpasquier/klog-gokit/v3 v3.3.0
 	github.com/snowflakedb/gosnowflake v1.6.23
 	github.com/vertica/vertica-sql-go v1.3.3
 	github.com/xo/dburl v0.16.0
 	google.golang.org/protobuf v1.31.0
 	gopkg.in/yaml.v3 v3.0.1
-	k8s.io/klog/v2 v2.70.1
 )
 
 require (
@@ -117,5 +117,3 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	howett.net/plist v0.0.0-20181124034731-591f970eefbb // indirect
 )
-
-replace k8s.io/klog/v2 => github.com/simonpasquier/klog-gokit/v3 v3.1.0

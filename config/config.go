@@ -15,8 +15,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/secretsmanager"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/model"
+	"github.com/simonpasquier/klog-gokit/v3"
 	"gopkg.in/yaml.v3"
-	"k8s.io/klog/v2"
 )
 
 // MaxInt32 defines the maximum value of allowed integers

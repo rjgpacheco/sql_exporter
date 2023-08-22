@@ -7,7 +7,7 @@ import (
 
 	"github.com/burningalchemist/sql_exporter/config"
 	"github.com/burningalchemist/sql_exporter/errors"
-	"k8s.io/klog/v2"
+	"github.com/simonpasquier/klog-gokit/v3"
 )
 
 // Query wraps a sql.Stmt and all the metrics populated from it. It helps extract keys and values from result rows.
